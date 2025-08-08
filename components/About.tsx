@@ -23,8 +23,9 @@ const About = () => {
           <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white px-6">
             <h3 className="text-3xl font-bold mb-4 z-10">Who We Are</h3>
             <p
-              className={`text-lg leading-relaxed text-center max-h-0 overflow-hidden opacity-0 group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-700 ease-in-out z-10
-              ${showText1 ? "max-h-[500px] opacity-100" : ""}`}
+              className={`leading-relaxed text-center max-h-0 overflow-hidden opacity-0 group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-700 ease-in-out z-10
+              ${showText1 ? "max-h-[500px] opacity-100" : ""} 
+              text-sm sm:text-lg`} // Smaller text on mobile, normal on larger screens
             >
               At NextDesk, we’re committed to keeping vulnerable children in
               school by removing the financial barriers that stand in their way.
@@ -50,8 +51,9 @@ const About = () => {
           <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white px-6">
             <h3 className="text-3xl font-bold mb-4 z-10">Our Mission</h3>
             <p
-              className={`text-lg leading-relaxed text-center max-h-0 overflow-hidden opacity-0 group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-700 ease-in-out z-10
-              ${showText2 ? "max-h-[500px] opacity-100" : ""}`}
+              className={`leading-relaxed text-center max-h-0 overflow-hidden opacity-0 group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-700 ease-in-out z-10
+              ${showText2 ? "max-h-[500px] opacity-100" : ""} 
+              text-sm sm:text-lg`} // Smaller text on mobile, normal on larger screens
             >
               To support underprivileged students by removing the financial and
               social barriers that keep them out of school. We believe education

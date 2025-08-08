@@ -24,7 +24,13 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Image src="/logo.png" alt="Logo" width={80} height={40} />
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={80}
+              height={40}
+              className="w-20 h-10 sm:w-16 sm:h-8"
+            />
           </div>
 
           {/* Desktop Menu */}

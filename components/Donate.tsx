@@ -31,7 +31,7 @@ const Donate = () => {
           {/* Description */}
           <p className="text-base md:text-xl text-gray-700 mb-6">
             Take full responsibility for one (or more) child’s education. Cover
-            all their school expenses and receive regular updates—progress
+            all their school expenses and receive regular updates, progress
             reports, report cards, achievements, and milestones.
           </p>
 
