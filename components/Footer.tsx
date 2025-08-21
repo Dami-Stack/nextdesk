@@ -48,27 +48,28 @@ const Footer = () => {
           <h3 className="text-base font-semibold mb-3">Connect With Us</h3>
           <div className="flex gap-4 mb-4">
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/nextdesk_ng"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src="/ig.png" alt="Instagram" width={24} height={24} />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://facebook.com/nextdesk_ng"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src="/fb.png" alt="Facebook" width={24} height={24} />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/nextdesk_ng"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src="/x.png" alt="Twitter" width={24} height={24} />
             </a>
           </div>
+
           <ul className="text-sm space-y-1">
             <li>
               <a href="/privacy" className="hover:underline">
