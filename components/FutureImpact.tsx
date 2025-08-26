@@ -61,14 +61,13 @@ const FutureImpact = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-[#ffffffaa] backdrop-blur-md rounded-xl p-6 flex flex-col items-center max-w-sm w-full mx-auto transition-all duration-300"
           >
-            <div className="w-16 h-16 rounded-full overflow-hidden mb-4 shadow-md relative">
-              <Image
-                src={goal.icon}
-                alt={goal.title}
-                fill
-                className="object-contain p-2"
-              />
-            </div>
+            <Image
+              src={goal.icon}
+              alt={goal.title}
+              width={64}
+              height={64}
+              className="rounded-full mb-4 shadow-md object-contain md:w-20 md:h-20"
+            />
             <h3 className="text-2xl font-bold text-black mb-2">{goal.title}</h3>
             <p className="text-gray-600 text-base">{goal.description}</p>
           </motion.div>
@@ -84,8 +83,9 @@ const FutureImpact = () => {
         transition={{ duration: 0.8, delay: 0.6 }}
         className="text-md text-black max-w-2xl mx-auto"
       >
-        Your donation doesn't just support one child, it builds hope and
-        opportunity for entire communities.
+        Your donation doesn't just support one child, it builds hope andRemove
+        going. Can we go buy something? You sure? No. No. Give me. That time.
+        Don't forget. opportunity for entire communities.
       </motion.p>
     </section>
   );
