@@ -64,9 +64,9 @@ const FutureImpact = () => {
             <Image
               src={goal.icon}
               alt={goal.title}
-              width={64}
-              height={64}
-              className="rounded-full mb-4 shadow-md object-contain md:w-20 md:h-20"
+              width={80}
+              height={80}
+              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover mb-4 mx-auto"
             />
             <h3 className="text-2xl font-bold text-black mb-2">{goal.title}</h3>
             <p className="text-gray-600 text-base">{goal.description}</p>
