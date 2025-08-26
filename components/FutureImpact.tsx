@@ -61,13 +61,12 @@ const FutureImpact = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-[#ffffffaa] backdrop-blur-md rounded-xl p-6 flex flex-col items-center max-w-sm w-full mx-auto transition-all duration-300"
           >
-            <div className="w-16 h-16 rounded-full overflow-hidden mb-4 shadow-md">
+            <div className="w-16 h-16 rounded-full overflow-hidden mb-4 shadow-md relative">
               <Image
                 src={goal.icon}
                 alt={goal.title}
-                width={64}
-                height={64}
-                className="object-cover "
+                fill
+                className="object-contain p-2"
               />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">{goal.title}</h3>

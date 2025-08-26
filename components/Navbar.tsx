@@ -31,7 +31,9 @@ const Navbar: React.FC = () => {
               height={40}
               className="w-20 h-10 lg:w-28 lg:h-14"
             />
-            <span className="font-bold text-gray-900 text-xl lg:text-3xl ">NextDesk</span>
+            <span className="font-bold text-gray-900 text-xl lg:text-3xl ">
+              NextDesk
+            </span>
           </div>
 
           {/* Desktop Menu */}
